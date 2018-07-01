@@ -1,0 +1,6 @@
+Encryption command: openssl enc -aes-256-cbc -salt -in my_image.jpg -out my_image.jpg.enc
+
+Password: ragul
+
+Decryption command: openssl enc -aes-256-cbc -d -in my_image.jpg.enc -out new_my_image.jpg
+
